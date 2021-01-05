@@ -1,11 +1,11 @@
 <html>
   <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
   </head>
-  <body>
-    <div class="fotorama" data-nav="thumbs" data-keyboard="true" data-autoplay="true">
+  <body style="background: black; margin: 0">
+    <div class="fotorama" data-allowfullscreen="true" data-fit="scaledown" data-nav="thumbs" data-keyboard="true" data-autoplay="true">
       <a href="img/DSCF9215.jpg"><img src="img/thumb_DSCF9215.jpg"></a>
       <a href="img/DSCF9016.jpg"><img src="img/thumb_DSCF9016.jpg"></a>
       <a href="img/DSCF9189.jpg"><img src="img/thumb_DSCF9189.jpg"></a>
@@ -65,5 +65,8 @@
       <a href="img/DSCF9218.jpg"><img src="img/thumb_DSCF9218.jpg"></a>
       <a href="img/DSCF9224.jpg"><img src="img/thumb_DSCF9224.jpg"></a>
     </div>
+    <script>
+      $('.fotorama').on('fotorama:ready', (e, fotorama) => fotorama.requestFullScreen());
+    </script>
   </body>
 </html>
