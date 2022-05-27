@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>Fantasy Sixty-Six</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+      integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+      crossorigin
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" crossorigin />
+    <script
+      src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+      integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+      crossorigin
+    ></script>
+
+    <!-- <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+      }
+      .leaflet-container {
+        height: 800px;
+        width: 1000px;
+        max-width: 100%;
+        max-height: 100%;
+      }
+    </style> -->
+  </head>
+
+  <body>
+    <!-- <header class="toolbar">
+      <label for="tile-selector">Tileset</label>
+      <select id="tile-selector" onchange="updateTile(this.value)">
+        <option value="street">Street</option>
+        <option value="terrain">Terrain</option>
+        <option value="satellite">Satellite</option>
+      </select>
+    </header> -->
+    <!-- <div class="slidecontainer">
+      <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+    </div> -->
+    <div id="map-container"></div>
+    <script src="./trip.js" type="module"></script>
+  </body>
+</html>
