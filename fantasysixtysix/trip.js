@@ -2,6 +2,7 @@
 
 import "./slider.js";
 import { locations } from "./locations.js";
+import { updates } from "./updates.js";
 import { getTilesets, buildPath } from "./utils.js";
 
 const tilesets = getTilesets();
@@ -12,7 +13,7 @@ const map = L.map("map-container", {
   layers: Object.values(tilesets),
 }).setView([lastLocation.lat, lastLocation.lng], 11);
 
-const [markers, path] = buildPath(locations);
+const [markers, path] = buildPath(locations, updates);
 markers.map((marker) => marker.addTo(map));
 path.addTo(map);
 

@@ -31,10 +31,17 @@ export function getTilesets() {
   };
 }
 
-export function buildPath(locations) {
-  const markers = locations.map((loc) =>
-    L.marker([loc.lat, loc.lng]).bindPopup(loc.timestamp)
-  );
+export function buildPath(locations, updates) {
+  const markers = locations.map((loc) => {
+    const update = updates.find((update) => update.timestamp == loc.timestamp);
+    const popupContent = `<h3>${loc.timestamp}</h3><div style="font-size:8pt">${
+      update ? update.text : ""
+    }</div>`;
+    const popupOptions = {
+      maxHeight: 225,
+    };
+    return L.marker([loc.lat, loc.lng]).bindPopup(popupContent, popupOptions);
+  });
   const path = L.polyline(locations.map((loc) => [loc.lat, loc.lng]));
   return [markers, path];
 }

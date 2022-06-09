@@ -16,4 +16,11 @@ export const locations = [
   { timestamp: "2022-05-31", lat: 47.26955, lng: -80.69917 },
   { timestamp: "2022-06-01", lat: 47.26950, lng: -80.69906 },
   { timestamp: "2022-06-02", lat: 47.26946, lng: -80.69908 },
+  { timestamp: "2022-06-03", lat: 47.25248, lng: -80.67647 },
+  { timestamp: "2022-06-04", lat: 47.24542, lng: -80.66021 },
+  { timestamp: "2022-06-05", lat: 47.24540, lng: -80.66028 },
+  { timestamp: "2022-06-06", lat: 47.24535, lng: -80.66033 },
+  { timestamp: "2022-06-07", lat: 47.24531, lng: -80.66031 },
+  { timestamp: "2022-06-08", lat: 47.16374, lng: -80.59473 },
 ];
+
