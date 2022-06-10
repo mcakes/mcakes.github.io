@@ -26,6 +26,7 @@ L.control
     min: 0,
     max: locations.length,
     locations,
+    updates,
     markers,
     path,
     map,

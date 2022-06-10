@@ -19,6 +19,7 @@ L.Control.Slider = L.Control.extend({
     input.value = this.options.max;
 
     const locations = this.options.locations;
+    const updates = this.options.updates;
 
     this.markers = this.options.markers;
     this.path = this.options.path;
@@ -26,7 +27,7 @@ L.Control.Slider = L.Control.extend({
     input.addEventListener("input", () => {
       this.markers.map(marker => map.removeLayer(marker)); 
       map.removeLayer(this.path)
-      const [markers, path] = buildPath(locations.slice(0, input.value))
+      const [markers, path] = buildPath(locations.slice(0, input.value), updates)
       this.markers = markers;
       this.path = path;
       markers.map(marker => marker.addTo(map));
