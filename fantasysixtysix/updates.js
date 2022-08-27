@@ -171,36 +171,87 @@ export const updates = [
     Resting today and if back not better will arrange a partial extraction at Twinkle L. 
     (a few hours travel and 3 short portages from here) & go to Alex's on Obabika to recoup. 
     Have been on ibuprofen since day 24 & periodic 1/4 Perc when moving 
-    (might explain some of the tumbles I've taken).]
+    (might explain some of the tumbles I've taken).
     ` 
-  }
+  },
+  {
+    timestamp: "2022-06-13",
+    text: `<h2>Day 31</h2>
+    Day 30 & 31 were spent in & around camp on Seagram Lake, a diversely varied lake of considerable beauty. 
+    One day I caught a lake trout from camp for breakfast, had canned herring for lunch and then caught a smallmouth bass for supper. 
+    Felt like Fish Friday! 
+    On day 31 I paddled to the east end of Seagram & scouted an old road as a possible extraction route, but couldn't definitively conclude its viability.`
+  },
+  {
+    timestamp: "2022-06-14",
+    text: `<h2>Day 32</h2>
+    Wanted to stay another day on Seagram. 
+    It continued to be incredibly calm and pleasant, surrounding vibrant spring greens at their peak. 
+    Prudence dictated I move to my pickup point, normally only a couple of hours away. 
+    Packed slowly, pain complicating things. 
+    On the go at 1 but slow & painful on the portages, beaver dams and other obstructions. 
+    Gear on pickup road at 6. Setup my tent on the road and strung a tarp and bug bag on the portage for a cooking/lounging area. 
+    Supper after 9.
+    `
+  },
+  {
+    timestamp: "2022-06-15",
+    text: `<h2>Day 33</h2>
+    Pack up camp and get ready for Don & Pete, who left North Bay 9:15, to arrive. 
+    When they hadn't arrived by 2 I began to get concerned. By 5 i was very concerned! Not for myself. 
+    I had shelter and food for the night. They had only the truck for shelter & who knows what scenario? 
+    Turns out there were navigation problems leading to low fuel forcing a retreat. 
+    Alex sent his son-in-law to bring me to Obabika.
+    `
+  },
+  {
+    timestamp: "2022-06-16",
+    text: `<h2>Day 34</h2>
+    The guys arrive with a month's supplies & some summer gear plus lots of fresh fruit & other foods.
+    I'm able to backup the photos & videos I've shot so far to my laptop & send it back. 
+    We spend the evening relaxing with Alex.
+    `
+  },
+  {
+    timestamp: "2022-06-17",
+    text: `<h2>Day 35</h2>
+    After a hearty breakfast the guys head out around 1 and suddenly my cabin is very quiet. 
+    The wind changes& picks up, temperature drops,& I realize my good fortune here on the cabin. 
+    I sent my warm sleeping bag & all long underwear out with the guys so would've been on the edge if id found myself out in a tent bearing the brunt of that weather.
+    `
+  },
+  {
+    timestamp: "2022-06-18",
+    text: `<h2>Day 36</h2>
+    Had a good washup and did some laundry. Still lotsa pain. 
+    This is the 11th day I've been feeling like this & im getting tired of it.
+    `
+  },
+  {
+    timestamp: "2022-06-19",
+    text: `<h2>Day 37</h2>
+    Plan to finish my laundry this morning and spend the rest of the day and tomorrow concentrated on exercising (exorcising) this thing away.
+    `
+  },
+  {
+    timestamp: "2022-06-25",
+    text: `<h2>Day 43</h2>
+    Spent the week recuperating at Alex's. 
+    Spent the days in and around my cabin, stretching, hobbling & lying around eating assorted painkillers and anti-inflamatories. 
+    Got all my laundry done over several days.
+    I was seriously considering pulling the plug on this whole project & calling for a ride out when things began to show improvement…
+    It would seem that the chin-up bar I rigged up and used as a traction device started to make a difference!
+    Yesterday was the first day in almost 3 weeks I didn't take painkillers.
+    Also got out in my canoe for short spins the last 2 days, something I hadn't done in over a week.
+    I'm gonna see how this weekend goes and may move out of the cabin in the next day or two. We'll see…
+    `
+  },
+  {
+    timestamp: "2022-06-27",
+    text: `<h2>Day 45</h2>
+    You wouldn't believe how reluctant I was to do this but…. 
+    I called Don to come and take me out. 
+    Don't know yet when that'll happen, but should be next few days. I've gotta be realistic. 
+    I've been stalled for over two weeks now. Today is Day 45 of the trip and Day 21 of pain…. ☹️`
+  },
 ]
-
-  // }
-// Week 4 To sum it all up? Pure screaming’ agony!
-// Day 23 After writing & sending Week 3 updates went for a hike to locate a cliff top Lookout I’d noticed a few years ago from the water but was unable to find it. On the way noticed an odd sensation in my right foot that later became obvious as a symptom of a building sciatica attack.
-// Day 24 a rain day. Rearranged my gazebo, made a few repairs & finished my last e-cigarette. Back/leg pain increasing.
-// Day 25 rained in the morning & in aft scouted the next portage & found it in fine shape. Sciatica really kicking in!
-// Day 26 Very restless sleep with back pain. Moved to Bluesucker Lake. 11 hrs to make 11 km w/ 5 portages. Had to cut & flag a 500m portage & last one was just a ridiculous bushcrash. In camp late, supper at 10 & forgot to send location updates. My location was: 47.16374, -80.59473. 
-// Day 27 moved to Talking Falls, 4km with one portage, 135m took over an hour! Slipped & gashed my arm. T-storm hit just after setting up bug shelter.
-// Day 28 restless night. Took over 5 hours to pack up & go. 7 hrs to make 8 km w/ 4 short portages. Can carry pack loads ok but canoe is agony. Walking upright near impossible. Setting up camp agony, specially overhead work stringing tarp ropes. Supper after 10 again & forgot to send locations.
-// Day 29 hard to get comfortable sleep. Answered messages from last 2 days. Overhauled malfunctioning stove. Saw 1st human since leaving Dan Day 16. Dan from Pittsburgh on a solo trip. Resting today and if back not better will arrange a partial extraction at Twinkle L. (a few hours travel and 3 short portages from here) & go to Alex’s on Obabika to recoup. Have been on ibuprofen since day 24 & periodic 1/4 Perc when moving (might explain some of the tumbles I’ve taken).]
-
-  // {
-  //   timestamp: "2022-06-05",
-  //   text: `
-  //   <h2>Week 3<h2>
-  //   <p>A brutally hard week of traveling! </p>
-  //   <p>
-  //     Day 15 saw Dan & I climb cliff on Marina L for view over it and Smoothwater. 
-  //     Park rangers portaged right through our camp without checking for the permits we didn’t have! YEEHAW!!
-  //   </p>
-  //   <p> Day 16 I left Dan and moved south. 10km of walking, 6km hauling 55, 65 & 75 lb loads! Buggiest camp ever!  </p>
-  //   <p> Day 17 was steep uphill on trapper trail. 4 loads!!! Exhausting!  <p
-  //   <p> Day 18 took 8 hrs to move 3km! 4 very steep carries on 2 portages. Made it to Broken Pelvis Lake and took a couple days off.  </p>
-  //   <p> Day 19 in camp with rain & repairs. </p>
-  //   <p> Day 20 hiked trail along Pilgrim Cr past Scarecrow Cut. Had conversation with a beaver. Beaverspeak sounds like mournful whalesong! </p>
-  //   <p> Day 21 headed for Chivers L but only got to Horseshoe L. 9 hrs to go 3km! Afternoon t-storm delayed progress. Another big one in evening. </p>
-  //   <p> Day 22 made it to Chivers Island! Showers & sun all day. Saw a full rainbow over the Mtn across the lake with both ends touching down IN the lake! Stunning! </p>
-  //   <p> Day 23 relaxing in camp. Probably go for a hike this aft.  </p>
-  //   `
