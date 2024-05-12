@@ -14,7 +14,8 @@ const map = L.map("map-container", {
 }).setView([lastLocation.lat, lastLocation.lng], 11);
 
 const [markers, path] = buildPath(locations, updates);
-markers.map((marker) => marker.addTo(map));
+const N = markers.length;
+markers.map((marker, i) => marker.setOpacity(i / N).addTo(map));
 path.addTo(map);
 
 L.control.zoom({ position: "bottomright" }).addTo(map);

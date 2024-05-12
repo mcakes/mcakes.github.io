@@ -13,6 +13,18 @@ def process_file(
     maxdim: int = 2048,
     thumbdim: int = 256
 ) -> Tuple[str, str]:
+    """Resize image and create thumbnail and save in desired location.
+    
+    Args:
+        filename: Filename of image to process.
+        outdir: Directory to store processed files.
+        onlycode: Only return the output filenames. Do not perform resizing.
+        maxdim: Maximum number of pixels along longest dimension.
+        thumdim: Maximum number of pixels along longest dimesion for thumbnail.
+    
+    Returns:
+        Relative path of output filename and thumbnail.
+    """
     fn = os.path.basename(filename) 
     fn_fullsize = os.path.join(outdir, fn)
     fn_thumb = os.path.join(outdir, f"thumb_{fn}")
@@ -31,7 +43,7 @@ def process_file(
     return os.path.relpath(fn_fullsize), os.path.relpath(fn_thumb)
 
 
-def gen_img_code(full: str, thumb: str):
+def gen_img_code(full: str, thumb: str) -> str:
     # return f'<a href="{full}"><img src="{thumb}"></a>'
     # return f'<img src="{thumb}" data-highres="{full}" />'
     return f"{{ src: '{full}', srct: '{thumb}' }},"

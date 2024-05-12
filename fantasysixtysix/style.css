@@ -2,7 +2,6 @@ html,
 body {
   height: 100%;
   margin: 0;
-  /* font-family: Roboto; */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .toolbar {
@@ -19,35 +18,7 @@ body {
 #map-container {
   width: 100%;
   height: 100vh;
-  /* height: calc(100% - 1rem); */
 }
-/* 
-.toolbar select {
-  border: none;
-  background-color: rgba(255, 255, 255, 0.5);
-  inset: 0 0 0 0;
-  height: 1rem; 
-}
-
-.toolbar * {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.toolbar label {
-    color: rgba(0, 0, 0, 0.6)
-}
-
-
-
-
-.toolbar select option {
-  background-color: transparent !important;
-  border: 1px solid #e4e4e4;
-  color: #000;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-} */
 
 .slider {
   -webkit-appearance: none;
