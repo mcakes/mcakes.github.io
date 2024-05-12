@@ -5,7 +5,7 @@ export const Zoe = () => {
     <section className="zoe-section section">
       <Scrollytelling.Root
         defaults={{ ease: "linear" }}
-        debug={{ label: "Zoe" }}
+        // debug={{ label: "Zoe" }}
       >
         <Scrollytelling.Pin
           childHeight={"100vh"}

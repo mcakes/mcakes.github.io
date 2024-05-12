@@ -5,7 +5,7 @@ export const Finger = () => {
     <section className="finger-section section">
       <Scrollytelling.Root
         defaults={{ ease: "linear" }}
-        debug={{ label: "Finger" }}
+        // debug={{ label: "Finger" }}
       >
         <Scrollytelling.Pin childHeight={"0"} pinSpacerHeight={"300vh"} top={0}>
           <img className="fullscreen" src="mom-wo-finger.png"></img>

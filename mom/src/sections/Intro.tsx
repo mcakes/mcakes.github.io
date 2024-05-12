@@ -4,7 +4,7 @@ export const Intro = () => {
   return (
     <Scrollytelling.Root
       defaults={{ ease: "linear" }}
-      debug={{ label: "Intro" }}
+    //   debug={{ label: "Intro" }}
     >
         <Scrollytelling.Pin childHeight={"0"} pinSpacerHeight={"100vh"} top={0}>
           <section className="intro-section section">

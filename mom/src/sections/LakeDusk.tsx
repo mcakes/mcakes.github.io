@@ -8,7 +8,7 @@ export const LakeAtDusk = () => {
     <section className="lake-at-dusk-section section">
       <Scrollytelling.Root
         defaults={{ ease: "linear" }}
-        debug={{ label: "LakeAtDusk" }}
+        // debug={{ label: "LakeAtDusk" }}
         end={"bottom top"}
       >
         <Scrollytelling.Pin

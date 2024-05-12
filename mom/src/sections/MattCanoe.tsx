@@ -5,7 +5,7 @@ export const MattCanoe = () => {
     <section id="matt-canoe" className="matt-canoe-section section">
       <Scrollytelling.Root
         defaults={{ ease: "linear" }}
-        debug={{ label: "MattCanoe" }}
+        // debug={{ label: "MattCanoe" }}
       >
         <Scrollytelling.Pin
           childHeight={"100vh"}

@@ -5,7 +5,7 @@ export const BigChair = () => {
     <section className="big-chair-section section">
       <Scrollytelling.Root
         defaults={{ ease: "linear" }}
-        debug={{ label: "Big Chair" }}
+        // debug={{ label: "Big Chair" }}
       >
         <Scrollytelling.Pin
           childHeight={"100vh"}

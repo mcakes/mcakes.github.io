@@ -6,7 +6,7 @@ export const MattSlide = () => {
     <section className="matt-slide-section section">
       <Scrollytelling.Root
         defaults={{ ease: "linear" }}
-        debug={{ label: "MattSlide" }}
+        // debug={{ label: "MattSlide" }}
         end={"bottom top"}
       >
         <Scrollytelling.Pin childHeight={"100vh"} pinSpacerHeight={"300vh"}>

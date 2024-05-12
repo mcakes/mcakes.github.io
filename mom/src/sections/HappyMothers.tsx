@@ -7,7 +7,7 @@ export const HappyMothers = () => {
   return (
     <Scrollytelling.Root
       defaults={{ ease: "linear" }}
-      debug={{ label: "Happy Mothers" }}
+    //   debug={{ label: "Happy Mothers" }}
       start="top bottom"
     >
       <div>
